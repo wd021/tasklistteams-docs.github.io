@@ -13,7 +13,7 @@ To install TaskList for your Microsoft Teams team, click on the **`Add To Teams`
 
 ### Add Tasks
 
-Use **`task`** to add a task in Microsoft Teams. Add **`#tags`** to categorize them.
+Use **`task`** to add a task. Add **`#tags`** to categorize them.
 
 ```examples
 task Discuss new design plans! #design #demo
