@@ -4,6 +4,8 @@
 Welcome to the TaskList help center. Here's a guide to explain how everything works. If you still have questions or need help, contact us at support@limestat.com.
 </h5>
 
+Remember, you must add the TaskList bot to a team in your **teams** section. Every team member has access to the same commands.
+
 ## Installation
 
 To install TaskList for your Microsoft Teams team, click on the **`Add To Teams`** button at **[tasklistforteams.com](https://tasklistforteams.com/)**.
@@ -13,29 +15,35 @@ To install TaskList for your Microsoft Teams team, click on the **`Add To Teams`
 
 ### Add Tasks
 
-Use **`task`** to add a task. Add **`#tags`** to categorize them.
+Use **`task`** to add a task. Add tags to categorize them (**`@users`** and/or **`#tags`**).
 
 ```examples
-task Discuss new design plans! #design #demo
-task Prepare for tokyo event #meetings
+@tasklist task Discuss new design plans! @Allison @Dan #design
+@tasklist task Prepare for tokyo event @everyone #meetings
+@tasklist task Walkthrough product v2 @me @Jessica
 ```
 
-?>&bull; If you create a task with no tags, it will automatically be assigned to **#all**.
+?>&bull; You can use **@me**, **@everyone**, or **@username** for **`@users`**.<br />&bull; If you create a task with no tags, it will automatically be assigned to **@everyone**.<br />&bull; The command must be used in the **teams** section. 
 
 ### View Tasks
 
 Use **`list`** to view a list of all your tags.
 
 ```examples
-list
+@tasklist list
 ```
 
-Use **`list #tag`** to view tasks for a specific tag.
+?>&bull; The command must be used in the **teams** section. 
+
+Use **`list [@user/#tag]`** to view tasks for a specific tag.
 
 ```examples
-list #meetings
-list #design
+@tasklist list @everyone
+@tasklist list @Allison
+@tasklist list #design
 ```
+
+?>&bull; The command must be used in the **teams** section. 
 
 ## In TaskList
 
