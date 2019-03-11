@@ -4,7 +4,7 @@
 Welcome to the TaskList help center. Here's a guide to explain how everything works. If you still have questions or need help, contact us at support@limestat.com.
 </h5>
 
-Remember, you must add the TaskList bot to a team in your **teams** section. Every team member has access to the same commands.
+?> Remember, you must add the TaskList bot to a team in your **teams** section. Every team member has access to the same commands.
 
 ## Installation
 
@@ -23,7 +23,7 @@ Use **`task`** to add a task. Add tags to categorize them (**`@users`** and/or *
 @tasklist task Walkthrough product v2 @me @Jessica
 ```
 
-?>&bull; You can use **@me**, **@everyone**, or **@username** for **`@users`**.<br />&bull; If you create a task with no tags, it will automatically be assigned to **@everyone**.<br />&bull; The command must be used in the **teams** section. 
+?>&bull; You can use **@me**, **@everyone**, or **@username** for **`@users`**.<br />&bull; If you create a task with no tags, it will automatically be assigned to **@everyone**.
 
 ### View Tasks
 
@@ -33,8 +33,6 @@ Use **`list`** to view a list of all your tags.
 @tasklist list
 ```
 
-?>&bull; The command must be used in the **teams** section. 
-
 Use **`list [@user/#tag]`** to view tasks for a specific tag.
 
 ```examples
@@ -42,8 +40,6 @@ Use **`list [@user/#tag]`** to view tasks for a specific tag.
 @tasklist list @Allison
 @tasklist list #design
 ```
-
-?>&bull; The command must be used in the **teams** section. 
 
 ## In TaskList
 
