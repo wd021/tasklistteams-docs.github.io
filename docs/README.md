@@ -4,7 +4,7 @@
 Welcome to the TaskList help center. Here's a guide to explain how everything works. If you still have questions or need help, contact us at support@limestat.com.
 </h5>
 
-?> Remember, you must add the TaskList bot to a team in your **teams** section. Every team member has access to the same commands.
+?> Remember, you must add the TaskList bot as a **personal** bot or **team** bot. **@user** tags are only applicable in teams.
 
 ## Installation
 
